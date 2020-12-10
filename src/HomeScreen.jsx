@@ -67,6 +67,7 @@ const HomeScreen = () => {
 
   return (
     <React.Fragment>
+    <h1 style={{ textAlign: "center", color: "gray" }}>Restaurants</h1>
       <div className="jumbotron m-5">
         <div
           className="row"
@@ -91,11 +92,11 @@ const HomeScreen = () => {
           </div>
           <div className="col-9">
             {" "}
-            <h6 className="m-2">Search Hotels </h6>
+            <h6 className="m-2">Search Restaurants </h6>
             <input
               className="form-control form-control"
               type="text"
-              placeholder="Search Hotels"
+              placeholder="Search Restaurants"
               onChange={(e) => handleSearch(e)}
             />
           </div>
